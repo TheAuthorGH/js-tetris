@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode=development",
-    "prod": "webpack --mode=production"
+    "prod": "webpack --mode=production",
+    "electron": "electron electron.js"
   },
   "author": "Luis Lau",
   "license": "GPL-3.0",
@@ -17,6 +18,7 @@
     "webpack-cli": "^3.2.3"
   },
   "dependencies": {
+    "electron": "^4.0.8",
     "lodash": "^4.17.11"
   }
 }
